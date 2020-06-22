@@ -37,6 +37,7 @@ class EmployeeController extends Controller
 		                    ]);
     	return view('datatables', compact('html'));
     	//dd("oke");
+    	//tetdalkjdlas
 	}
 
 
