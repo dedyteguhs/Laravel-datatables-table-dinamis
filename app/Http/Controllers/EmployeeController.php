@@ -28,7 +28,6 @@ class EmployeeController extends Controller
 
    		$html = $datatables->getHtmlBuilder()
    		                   ->columns($columns)
-   		                   
    		                   ->parameters([
 		                        'dom' => 'Blfrtip',
 		                        'select' => [
@@ -37,6 +36,7 @@ class EmployeeController extends Controller
 		                        ],
 		                    ]);
     	return view('datatables', compact('html'));
+    	//dd("oke");
 	}
 
 
